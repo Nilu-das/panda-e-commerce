@@ -1,31 +1,401 @@
- /* Extra small devices (portrait phones, less than 576px) */
- 
- @media (max-width: 575.98px) {}
- /* Small devices (landscape phones, 576px and up) */
- 
- @media (min-width: 576px) and (max-width: 767.98px) {}
- /* Medium devices (tablets, 768px and up) */
- 
- @media (min-width: 768px) and (max-width: 991.98px) {}
- /* Large devices (desktops, 992px and up) */
- 
- @media (min-width: 992px) and (max-width: 1199.98px) {
-     .contact-us input {
-         display: block;
-         padding: 7px 0px 7px 5px;
-         box-shadow: 2px 2px 4px #918f8f;
-         border: 1px solid #a8a8a8;
-         margin: auto;
-         width: 34%;
-     }
-     .contact-us .btn-custome {
-         color: #ffffff;
-         text-transform: uppercase;
-         padding: 6px 15px;
-         background: #FF247A;
-         margin-right: 216px;
-     }
- }
- /* Extra large devices (large desktops, 1200px and up) */
- 
- @media (min-width: 1200px) {}
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../img/logo1.png");
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .slider-content h2 {
+        color: #282727;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 50px;
+        text-align: center;
+    }
+    .slider-content p {
+        font-weight: 400;
+        width: 100%;
+        padding-bottom: 10px;
+        color: #221C1D;
+        text-align: center;
+        font-size: 18px;
+    }
+    .slider-content h3 {
+        font-weight: 600;
+        font-size: 45px;
+        color: #c42345eb;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .slider-content a {
+        color: #ffffff;
+        text-transform: uppercase;
+        padding: 12px 14px;
+        background: #c42345eb;
+        text-align: center;
+        display: block;
+        margin-bottom: 25px;
+    }
+    .good-title h2 {
+        color: #9B2D19;
+        font-weight: 800;
+        padding: 15px;
+        font-size: 40px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .goods-img img {
+        vertical-align: middle;
+        border-style: none;
+        padding-left: 199px;
+        padding-bottom: 14px;
+    }
+    .shoes-title h2 {
+        text-transform: capitalize;
+        padding-top: 60px;
+        font-weight: 600;
+        text-align: center;
+        font-size: 50px;
+    }
+    .shoes-product {
+        width: 500px;
+        background: #F4ECEC;
+        box-shadow: 6px 6px 7px #ddd;
+        margin: 0 auto 25px auto;
+        text-align: center;
+    }
+    .shoes-product h5 {
+        text-transform: capitalize;
+        font-size: 36px;
+        padding-bottom: 8px;
+        font-weight: 800;
+    }
+    .shoes-product h3 {
+        font-size: 40px;
+    }
+    .shoes-product p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .shoes-product .btn-custome {
+        color: #ffffff;
+        text-transform: uppercase;
+        padding: 14px 15px;
+        background: #BB024B;
+        width: 100%;
+    }
+    .backpack-title h2 {
+        text-transform: capitalize;
+        padding-top: 20px;
+        font-weight: 600;
+        text-align: center;
+        font-size: 50px;
+    }
+    .backpack-product {
+        width: 500px;
+        background: #F4ECEC;
+        box-shadow: 6px 6px 7px #ddd;
+        margin: 0 auto 25px auto;
+        text-align: center;
+    }
+    .backpack-product h5 {
+        text-transform: capitalize;
+        font-size: 36px;
+        padding-bottom: 8px;
+        font-weight: 800;
+    }
+    .backpack-product h3 {
+        font-size: 40px;
+    }
+    .backpack-product p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .backpack-product .btn-custome {
+        color: #ffffff;
+        text-transform: uppercase;
+        padding: 14px 15px;
+        background: #BB024B;
+        width: 100%;
+    }
+    .contact-us h4 {
+        font-size: 17px;
+    }
+    .contact-us input {
+        display: block;
+        padding: 7px 0px 7px 5px;
+        box-shadow: 2px 2px 4px #918f8f;
+        border: 1px solid #a8a8a8;
+        margin: auto;
+        width: 65%;
+        text-align: center;
+        font-size: 18px;
+    }
+    .contact-us .btn-custome {
+        color: #240a0a;
+        width: 65%;
+        margin-left: 85px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../img/logo1.png");
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .slider-content h2 {
+        color: #282727;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 50px;
+        text-align: center;
+    }
+    .slider-content p {
+        font-weight: 400;
+        width: 100%;
+        padding-bottom: 10px;
+        color: #221C1D;
+        text-align: center;
+        font-size: 18px;
+    }
+    .slider-content h3 {
+        font-weight: 600;
+        font-size: 45px;
+        color: #D90066;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .slider-content a {
+        color: #ffffff;
+        text-transform: uppercase;
+        padding: 12px 14px;
+        background: #D90066;
+        text-align: center;
+        display: block;
+        margin-bottom: 25px;
+    }
+    .good-title h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .shoes-title h2 {
+        text-transform: capitalize;
+        padding-top: 30px;
+        font-weight: 600;
+        text-align: center;
+        font-size: 50px;
+    }
+    .shoes-product {
+        width: 500px;
+        background: #F4ECEC;
+        box-shadow: 6px 6px 7px #ddd;
+        margin: 0 auto 25px auto;
+        text-align: center;
+    }
+    .shoes-product h5 {
+        text-transform: capitalize;
+        font-size: 36px;
+        padding-bottom: 8px;
+        font-weight: 800;
+    }
+    .shoes-product h3 {
+        font-size: 40px;
+    }
+    .shoes-product p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .shoes-product .btn-custome {
+        color: #ffffff;
+        text-transform: uppercase;
+        padding: 14px 15px;
+        background: #BB024B;
+        width: 100%;
+    }
+    .backpack-title h2 {
+        text-transform: capitalize;
+        padding-top: 20px;
+        font-weight: 600;
+        text-align: center;
+        font-size: 50px;
+    }
+    .backpack-product {
+        width: 500px;
+        background: #F4ECEC;
+        box-shadow: 6px 6px 7px #ddd;
+        margin: 0 auto 25px auto;
+        text-align: center;
+    }
+    .backpack-product h5 {
+        text-transform: capitalize;
+        font-size: 36px;
+        padding-bottom: 8px;
+        font-weight: 800;
+    }
+    .backpack-product h3 {
+        font-size: 40px;
+    }
+    .backpack-product p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .backpack-product .btn-custome {
+        color: #ffffff;
+        text-transform: uppercase;
+        padding: 14px 15px;
+        background: #BB024B;
+        width: 100%;
+    }
+    .contact-us h4 {
+        font-size: 17px;
+    }
+    .contact-us input {
+        display: block;
+        padding: 7px 0px 7px 5px;
+        box-shadow: 2px 2px 4px #918f8f;
+        border: 1px solid #a8a8a8;
+        margin: auto;
+        width: 65%;
+        text-align: center;
+        font-size: 18px;
+    }
+    .contact-us .btn-custome {
+        color: #240a0a;
+        width: 65%;
+        margin-left: 85px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../img/logo1.png");
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .goods-img {
+        margin-left: 30px;
+        padding-bottom: 10px;
+    }
+    .good-title h2 {
+        text-align: center;
+    }
+    .shoes-title h2 {
+        text-transform: capitalize;
+        padding-top: 30px;
+        font-weight: 600;
+        text-align: center;
+        font-size: 50px;
+    }
+    .shoes-product {
+        width: 500px;
+        background: #F4ECEC;
+        box-shadow: 6px 6px 7px #ddd;
+        margin: 0 auto 25px auto;
+        text-align: center;
+    }
+    .shoes-product h5 {
+        text-transform: capitalize;
+        font-size: 36px;
+        padding-bottom: 8px;
+        font-weight: 800;
+    }
+    .shoes-product h3 {
+        font-size: 40px;
+    }
+    .shoes-product p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .shoes-product .btn-custome {
+        color: #ffffff;
+        text-transform: uppercase;
+        padding: 14px 15px;
+        background: #BB024B;
+        width: 100%;
+    }
+    .backpack-title h2 {
+        text-transform: capitalize;
+        padding-top: 20px;
+        font-weight: 600;
+        text-align: center;
+        font-size: 50px;
+    }
+    .backpack-product {
+        width: 500px;
+        background: #F4ECEC;
+        box-shadow: 6px 6px 7px #ddd;
+        margin: 0 auto 25px auto;
+        text-align: center;
+    }
+    .backpack-product h5 {
+        text-transform: capitalize;
+        font-size: 36px;
+        padding-bottom: 8px;
+        font-weight: 800;
+    }
+    .backpack-product h3 {
+        font-size: 40px;
+    }
+    .backpack-product p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .backpack-product .btn-custome {
+        color: #ffffff;
+        text-transform: uppercase;
+        padding: 14px 15px;
+        background: #BB024B;
+        width: 100%;
+    }
+    .contact-us h4 {
+        font-size: 17px;
+        font-weight: normal;
+    }
+    .contact-us .btn-custome {
+        margin-right: 214px;
+    }
+    .contact-us input {
+        display: block;
+        padding: 11px 0px 11px 8px;
+        box-shadow: 2px 2px 4px #918f8f;
+        border: 1px solid #a8a8a8;
+        margin: auto;
+        width: 46%;
+    }
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .contact-us h2 {
+        font-size: 31px;
+    }
+    .contact-us h4 {
+        font-weight: normal;
+        font-size: 18px;
+    }
+    .contact-us input {
+        width: 35%;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
